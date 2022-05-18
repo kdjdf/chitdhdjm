@@ -113,6 +113,36 @@
     "ALLOW_EXCL": {
        "description": "Set this to True if you want ! to be a command prefix along with /. Recommended is True",
        "value": "True"
+        
+         {
+        "BOT_TOKEN": {
+            "description": "telegram bot token here",
+            "required": true
+        },
+        "KUKI_API": {
+            "description": "go to @Kukichatbot and then send /token you will get a api paste it here ",
+            "required": true
+        },
+        "ERROR_LOG": {
+            "description": "error channel log id",
+            "required": true
+        },
+        "MONGO_URL": {
+            "description": "mongo db url here",
+            "required": true
+        },
+        "API_ID": {
+            "description": "telegram api id here",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "telegram api hash here",
+            "required": true
+        }
+    },
+    "addons": [
+        {
+            "plan": "heroku-postgresql"
     }
     
  }
